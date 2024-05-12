@@ -3258,7 +3258,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 7
+      m_SerializableObject: 13.2
     m_Space: 2147483647
   m_Property:
     name: _Float
@@ -3296,7 +3296,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":1.2286609411239625,"g":0.7795966863632202,"b":11.018301010131836,"a":0.9058823585510254}'
+      m_SerializableObject: '{"r":1.246888518333435,"g":0.7911622524261475,"b":11.181761741638184,"a":0.9058823585510254}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -3600,7 +3600,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10.22
     m_Space: 2147483647
   m_Property:
     name: _Float
@@ -3638,7 +3638,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.0,"g":0.0,"b":0.0,"a":0.8999999761581421}'
+      m_SerializableObject: '{"r":0.0,"g":0.0,"b":0.0,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -3804,7 +3804,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 15.28
     m_Space: 2147483647
   m_Property:
     name: _speed
@@ -5768,7 +5768,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":3.3497934341430666,"g":1.0141935348510743,"b":16.539148330688478,"a":1.0}'
+      m_SerializableObject: '{"r":5.202965259552002,"g":1.5752655267715455,"b":25.688932418823243,"a":1.0}'
     m_Space: 2147483647
   m_Property:
     name: _Color
@@ -5934,7 +5934,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2
+      m_SerializableObject: 3.72
     m_Space: 2147483647
   m_Property:
     name: _speed
