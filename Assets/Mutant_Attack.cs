@@ -20,7 +20,7 @@ public class Mutant_Attack : StateMachineBehaviour
       
         animator.transform.LookAt(player);
         float distance = Vector3.Distance(animator.transform.position, player.transform.position);
-        if (distance > 6)
+        if (distance > 15)
             animator.SetBool("IsAttack", false);
         
     }
