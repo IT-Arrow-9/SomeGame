@@ -2263,7 +2263,7 @@ Transform:
   m_GameObject: {fileID: 553484083}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.02, y: 0, z: 13.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2945,6 +2945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 758840756}
   - component: {fileID: 758840757}
+  - component: {fileID: 758840758}
   m_Layer: 0
   m_Name: "\u0447\u0435\u043B.002"
   m_TagString: Untagged
@@ -3096,6 +3097,25 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.040852368, y: -0.59501004, z: 0.22538018}
     m_Extent: {x: 1.2649105, y: 3.0525243, z: 1.3269072}
   m_DirtyAABB: 0
+--- !u!114 &758840758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758840755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a298fe10e248146a114d3c8be9684f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHP: 100
+  HP: 100
+  Intencity: 0
+  MinIntecity: 0
+  MaxIntecity: 5
+  Polosi: {fileID: 2100000, guid: 6f18a305425671f4aa433ad0fd436952, type: 2}
+  _emissionColorValue: {r: 0.5065481, g: 0.19339621, b: 1, a: 0}
 --- !u!1 &763574474
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,7 +4663,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2.93
-  m_Speed: 3.5
+  m_Speed: 5.45
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6076,7 +6096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &1743668902
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7410,7 +7430,7 @@ PrefabInstance:
     - target: {fileID: 1900610587450056041, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Overridden
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1993200045802720168, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}

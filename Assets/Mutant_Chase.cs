@@ -44,7 +44,7 @@ public class Mutant_Chase : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         agent.SetDestination(agent.transform.position);
-        agent.speed = 2;
+        
     }
 
    
