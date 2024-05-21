@@ -4,22 +4,15 @@ using UnityEngine;
 
 public class Damage : MonoBehaviour
 {
-    public int damage = 5;
-    public LayerMask enemyLayer;
-    public MonsterStats otherscritpt;
+    public int damageAmount = 5;
 
-    public void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (enemyLayer == (enemyLayer | (1 << other.gameObject.layer)))
+        Debug.Log("l");
+        if(other.tag == "Enemy")
         {
-            Debug.Log("мать ебал");
-            MonsterStats enemyHealth = other.GetComponent<MonsterStats>();
-            if (enemyHealth == null)
-            {
-                enemyHealth.TakeDamage(damage);
-                Debug.Log("сын шалавы");
-            }
-
+            Debug.Log("lo");
+            other.GetComponent<MonsterStats>().TakeDamage(damageAmount);
         }
     }
 }
