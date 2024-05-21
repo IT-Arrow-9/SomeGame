@@ -15,6 +15,7 @@ public class SlashAttack : MonoBehaviour
     private Transform _camera;
     [SerializeField]
     private GameObject _Center;
+    
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -26,7 +27,7 @@ public class SlashAttack : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Attack();
-            Debug.Log(_camera.rotation.eulerAngles.x);
+           // Debug.Log(_camera.rotation.eulerAngles.x);
         }
     }
     void Attack()
@@ -35,7 +36,8 @@ public class SlashAttack : MonoBehaviour
         //нанесение урона врагу
         StartCoroutine( DestroySlash(_timeZaderzhki,newSlash));
     }
- IEnumerator DestroySlash(float i,GameObject g)
+
+    IEnumerator DestroySlash(float i,GameObject g)
     {
         yield return new WaitForSeconds (i);
     

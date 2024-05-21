@@ -5,24 +5,23 @@ using UnityEngine.VFX;
 
 public class MonsterStats : MonoBehaviour
 {
-    [SerializeField]
-    private float HP = 100;
+   // [SerializeField]
+     private float HP = 100;
     VisualEffect vfx;
+    
     private void Start()
     {
         vfx = gameObject.GetComponentInChildren<VisualEffect>();
     }
-    private void Update()
+    public void TakeDamage(int damage)
     {
-        vfx.SetFloat("HP", HP);
-        if(HP<= 0)
-        {
-            
-        }
+        HP -= damage;
+       
     }
     private void Death()
     {
 
     }
+    
     
 }
