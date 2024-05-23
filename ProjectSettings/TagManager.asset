@@ -9,6 +9,7 @@ TagManager:
   - Points
   - Slash
   - Weapon
+  - vrag
   layers:
   - Default
   - TransparentFX

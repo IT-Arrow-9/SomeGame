@@ -14,7 +14,10 @@ public class PlayerStats : MonoBehaviour
     {
         
     }
-
+    public void TakeDamage(int damageAmount)
+    {
+        HP -= damageAmount;
+    }
     // Update is called once per frame
     void Update()
     {

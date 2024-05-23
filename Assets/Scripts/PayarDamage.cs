@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Damage : MonoBehaviour
+public class PayarDamage : MonoBehaviour
 {
     public int damageAmount = 10;
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("l");
-        if ((other.tag == "vrag"))
+        if ((other.tag == "Player"))
         {
-            Debug.Log("lo");
-            other.GetComponent<MonsterStats>().TakeDamage(damageAmount);
+            Debug.Log("reg");
+            other.GetComponent<PlayerStats>().TakeDamage(damageAmount);
         }
     }
 }
