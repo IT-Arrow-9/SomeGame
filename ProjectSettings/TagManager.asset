@@ -10,6 +10,7 @@ TagManager:
   - Slash
   - Weapon
   - vrag
+  - sheat
   layers:
   - Default
   - TransparentFX

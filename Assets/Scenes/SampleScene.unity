@@ -1571,7 +1571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &398137969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2646,7 +2646,7 @@ GameObject:
   - component: {fileID: 652843731}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: sheat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6432,7 +6432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 439adb61846d5eb49a295537a0f485e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _slash: {fileID: 7190822176435443095, guid: 712d9d015e64bc2479536039aa75903b, type: 3}
+  _slash: {fileID: 8043017923562949588, guid: 61d048d71b0928c41916e92526b17cc6, type: 3}
   _timeZaderzhki: 0.51
   _SpawnPos: {fileID: 510835459}
   _camera: {fileID: 330585546}
@@ -7628,7 +7628,7 @@ PrefabInstance:
     - target: {fileID: 856146621959980495, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1234389275175789153, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
@@ -7888,7 +7888,7 @@ PrefabInstance:
     - target: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
