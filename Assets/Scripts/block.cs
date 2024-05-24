@@ -6,7 +6,8 @@ public class block : MonoBehaviour
 {
     public GameObject Shild;
 
-    float damage = 0;
+    public float max_shealdPOwer = 1;
+    public float Power = 0.5f;
     
     private void Start()
     {
