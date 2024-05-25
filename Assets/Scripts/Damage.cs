@@ -9,10 +9,10 @@ public class Damage : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("l");
-        if ((other.tag == "vrag"))
+        if ((other.tag == "Enemy"))
         {
             Debug.Log("lo");
-            other.GetComponent<MonsterStats>().TakeDamage(damageAmount);
+            other.GetComponent<statsmonster>().TakeDamage(damageAmount);
         }
     }
 }
