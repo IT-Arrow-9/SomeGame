@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.008
     second: {fileID: 2100000, guid: 90bfc7e3672aab34c87847dd7853c8be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inside sword.001
+    second: {fileID: 2100000, guid: 90bfc7e3672aab34c87847dd7853c8be, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

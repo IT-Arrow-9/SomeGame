@@ -7,7 +7,7 @@ public class Mutant_Idle : StateMachineBehaviour
     float timer;
     Transform player;
     [SerializeField]
-    float attackRange = 2;
+    float attackRange = 5;
     [SerializeField]
     float chaseRange = 10;
 
@@ -29,6 +29,10 @@ public class Mutant_Idle : StateMachineBehaviour
         if(distance<chaseRange)
         {
             animator.SetBool("IsChase", true);
+        }
+        if(distance<attackRange)
+        {
+            animator.SetBool("IsAttack", true);
         }
     }
 

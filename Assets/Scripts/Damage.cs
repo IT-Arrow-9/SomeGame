@@ -8,11 +8,12 @@ public class Damage : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("l");
-        if ((other.tag == "Enemy"))
+       
+        if (other.CompareTag("Enemy"))
         {
             Debug.Log("lo");
-            other.GetComponent<statsmonster>().TakeDamage(damageAmount);
+            other.GetComponent<MonsterStats>().TakeDamage(damageAmount);
         }
     }
+   
 }

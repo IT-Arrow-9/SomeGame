@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,12 @@ public class Mutant_Attack : StateMachineBehaviour
     Transform player;
     
     bool activated;
+    public float attackRange;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         activated = true;
+       
 
     }
 
@@ -20,7 +23,7 @@ public class Mutant_Attack : StateMachineBehaviour
       
         animator.transform.LookAt(player);
         float distance = Vector3.Distance(animator.transform.position, player.transform.position);
-        if (distance > 15)
+        if (distance > attackRange)
             animator.SetBool("IsAttack", false);
         
     }

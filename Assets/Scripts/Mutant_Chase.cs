@@ -8,7 +8,7 @@ public class Mutant_Chase : StateMachineBehaviour
     NavMeshAgent agent;
     Transform player;
     [SerializeField]
-    float attackRange = 4;
+    float attackRange = 5;
     [SerializeField]
     float chaseRange = 10;
 
