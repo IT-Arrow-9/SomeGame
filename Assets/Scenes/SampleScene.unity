@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2943,7 +2943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &598441206
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6683,19 +6683,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1310509829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310509824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15eef9ef31a921f4c95bdb62605b0fa6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HP: 100
 --- !u!136 &1310509831
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6719,6 +6706,19 @@ CapsuleCollider:
   m_Height: 14.560632
   m_Direction: 1
   m_Center: {x: -0.020446539, y: 6.780316, z: 0}
+--- !u!114 &1310509832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310509824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5cc45341634c954b8d14e543067feaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 100
 --- !u!1 &1331041485
 GameObject:
   m_ObjectHideFlags: 0
@@ -10504,7 +10504,7 @@ PrefabInstance:
     - target: {fileID: 856146621959980495, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1234389275175789153, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
@@ -10764,7 +10764,7 @@ PrefabInstance:
     - target: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
@@ -11132,7 +11132,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1310509829}
+      addedObject: {fileID: 1310509832}
     - targetCorrespondingSourceObject: {fileID: 4990359415215576174, guid: 44e6bd7c0b7f39c4d81067fd97426b40,
         type: 3}
       insertIndex: -1
