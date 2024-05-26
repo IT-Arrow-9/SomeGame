@@ -22,8 +22,7 @@ public class SlashSpam : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+      
         _animator = GetComponent<Animator>();
         swordAnimator = sword.GetComponent<Animator>();
     }
@@ -33,8 +32,8 @@ public class SlashSpam : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
         {
             Attack();
-            _animator.SetBool("Attack", true);
-            swordAnimator.SetBool("Attack", true);
+           // _animator.SetBool("Attack", true);
+            //swordAnimator.SetBool("Attack", true);
         }
     }
     public void Attack()

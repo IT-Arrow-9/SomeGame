@@ -37,7 +37,7 @@ public class Mutant_Chase : StateMachineBehaviour
         }
        
         
-        Debug.Log(distance);
+        //Debug.Log(distance);
     }
 
   

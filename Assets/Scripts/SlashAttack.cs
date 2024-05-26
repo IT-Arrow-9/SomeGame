@@ -21,8 +21,7 @@ public class SlashAttack : MonoBehaviour
     
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        
         _animator = GetComponent<Animator>();
         swordAnimator = sword.GetComponent<Animator>();
     }
